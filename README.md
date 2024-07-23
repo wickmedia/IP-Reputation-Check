@@ -1,5 +1,5 @@
 # IP-Reputation-Check
-Check IP Reputation
+Check IP Reputation in Bulk
 ----------------------------------------------
 Prerequisites:
 
