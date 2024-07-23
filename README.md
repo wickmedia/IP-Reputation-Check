@@ -30,27 +30,8 @@ Execute the script in your Python environment. The script will:
 Keeping Data
 Input Data: The input Excel file (Input.xlsx) should have a column named 'IOC' which contains the list of IP's to be processed.
 
-Output Data: The output Excel file (Output.xlsx) will contain the API responses with the following columns:
+Output Data: The output Excel file (Output.xlsx) will contain the API responses.
 
-    IP Address
-    Risk Score
-    Risk Level
-    Phishing Score
-    Phishing Count
-    Public Score
-    Public Most Critical Rule
-    C2 Score
-    C2 Count
-    Historical Threat List
-    Historical Threat Count
-    Historical Threat Timestamp
-    Unusual IP
-    Unusual IP Count
-    Unusual IP Timestamp
-    Brute Force
-    Brute Force Count
-    Brute Force Timestamp
-    
 Progress Tracking: The script tracks and prints the progress of each batch processed, including the number of IOCs processed so far.
 
 Error Handling: The script handles missing keys in the API response and ensures that it only appends valid data to the output file.
